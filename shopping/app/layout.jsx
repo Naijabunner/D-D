@@ -1,4 +1,5 @@
 import "./globals.css";
+import Nav from "./ui/Nav/Navbar";
 
 export const metadata = {
   title: "E-Commerce Store",
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+              
       <body className="">{children}</body>
+
     </html>
   );
 }
