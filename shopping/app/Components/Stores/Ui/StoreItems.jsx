@@ -3,7 +3,7 @@ import pic from "@/public/Assets/Myimg.jpeg";
 const Items = () => {
   return (
     <>
-      <div className="bg-slate-100 m-3 p-1 rounded-lg">
+      <div className="items_bg_color m-3 p-1 rounded-lg">
         <Image src={pic} alt="" className="rounded-lg" />
         <div className="relative">
           <p className=" text-md">Blouse and skirt</p>
@@ -19,7 +19,7 @@ const Items = () => {
            <p className="text-sm w">
              ${"5000"}
            </p>
-          <i className="fa-solid fa-cart bg-blue-800 text-white p-5 rounded-full w-fit absolute bottom-[-15px] right-0"></i>
+          <i className="fa-solid fa-cart text-white p-5 rounded-full w-fit absolute bottom-[-15px] right-0"></i>
         </div>
       </div>
     </>

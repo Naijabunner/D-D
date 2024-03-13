@@ -3,17 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --bg-one: #3bda1b;
+  --bg-two: #e78a11;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+} */
+.items_bg_color {
+  box-shadow: color-mix(in srgb, color percentage, color percentage);
+  background: linear-gradient( left to right var(--bg-one), var(--bg-two))
+}
+
+p {
+  color: var(--bg-one);
+}
+
+.btn_color {
+  background: var(--bg-one);
+}
+
+i {
+  background: var(--bg-two);
 }
 
 /* body {

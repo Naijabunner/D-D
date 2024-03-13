@@ -7,7 +7,7 @@ const Stores = () => {
             Our featured store
         </h3>
         </div>
-        <div className=" grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-[90%] ">
+        <div className=" grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5 w-[90%] ">
         <Items/>
         <Items/>
         <Items/>
